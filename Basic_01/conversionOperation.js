@@ -31,3 +31,22 @@ console.log(typeof booleanIsLoggedIn);
 //"" -> false
 //null -> false
 //undefined -> false
+
+//************************Operations*****************************
+
+//Basic Operations like +,-,*,/,**(power),%
+
+console.log("3" + 3);//33
+console.log(3 + "3");//33
+console.log("3" + "3");//33
+console.log("3" + 3 + 2);//332
+console.log(3 + 3 + "2");//62
+console.log(3 + "3" + 2);//332
+
+let value = true
+console.log(+true); //it is okay to learn but in production it is not applicable , code is readable
+
+let counter = 100;
+console.log(counter++); // prefic: first print the number and then increment it
+console.log(counter);
+console.log(++counter);//postfix: first increment the number and then print it
