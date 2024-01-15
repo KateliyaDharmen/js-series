@@ -44,8 +44,30 @@ const users = [
 
 // console.log(users[1].email);
 
-console.log(appUser);
-console.log(Object.keys(appUser));
-console.log(Object.values(appUser));
-console.log(Object.entries(appUser));
-console.log(appUser.hasOwnProperty("email"));
+// console.log(appUser);
+// console.log(Object.keys(appUser));
+// console.log(Object.values(appUser));
+// console.log(Object.entries(appUser));
+// console.log(appUser.hasOwnProperty("email"));
+
+//object de-structure
+
+const bike = {
+    name: "kawasaki",
+    price: "1000000",
+    ownername: "dk"
+}
+
+// const {ownername} = bike // {object}
+// console.log(ownername);
+
+const {ownername: own} = bike // {object: shortname, if u want to use}
+console.log(own);
+
+// json
+// {
+//     "name": "dk",
+//     "id": "abc383"
+//     "email": "abc@gmail.com"
+// }
+
