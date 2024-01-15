@@ -32,6 +32,6 @@ user1.greeting = function () {
 console.log(user1.greeting());
 
 user1.greeting2 = function () {
-    console.log(`Hello My Name is ${user1.name}`);
+    console.log(`Hello My Name is ${user1.name}`); // instead of {user1.name}, u can also use {this.name}
 }
 console.log(user1.greeting2());
