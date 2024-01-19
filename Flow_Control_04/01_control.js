@@ -29,14 +29,13 @@ else{
 
 
 // && , ||
-const score = 2
-if(score < 50 && score >25){
-    console.log("average");
-}else if(score > 80 || score > 75)
-{
-    console.log("Good");
-}else {
-    console.log("vgood");
+const google = true
+const email = true
+
+if(google == true && email == true){
+    console.log("verified");
+}else{
+    console.log("not verified");
 }
 
 if(true) console.log("hello"),console.log("world"); // one line if statement
