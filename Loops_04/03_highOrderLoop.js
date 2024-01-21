@@ -1,4 +1,4 @@
-//for of 
+//**************************for of ***************************
 //["", "", ""]
 //[{}, {}, {}]
 
@@ -35,7 +35,7 @@ const myObj = {
 //     // console.log(keys, value);
 // }
 
-//for in loop
+//************************for in loop************************
 for (const key in myObj) {
     // console.log(key, ':', myObj[key]);
 }
