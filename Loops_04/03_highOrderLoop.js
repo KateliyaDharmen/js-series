@@ -21,9 +21,9 @@ map.set("three", 3)
 
 // console.log(map);
 
-for (const [keys, value] of map) {
-    // console.log(keys, ":", value);
-}
+// for (const [keys, value] of map) {
+//     // console.log(keys, ":", value);
+// }
 
 const myObj = {
     name: "dk",
@@ -37,5 +37,56 @@ const myObj = {
 
 //for in loop
 for (const key in myObj) {
-    console.log(key, ':', myObj[key]);
+    // console.log(key, ':', myObj[key]);
 }
+
+const fruits = ["apple", "banana", "guava"]
+
+for (const key in fruits) {
+    // console.log(key); //it gives index key.....for get values use fruits[key]
+}
+
+// for (const key in map) {
+//     console.log(key);  // use forin loop on map it cannot give output
+// }
+
+
+//**************************for each*********************
+
+const coding = ["js", "c", "cpp", "php", "java"]
+// coding.forEach( (val) => {
+//     console.log(val);
+// })
+
+// function printMe(val) {
+//     console.log(val);
+// }
+
+// coding.forEach(printMe)
+
+coding.forEach( (item, index, arr) => {
+    // console.log(item, index, arr);
+})
+
+const animal = [
+    {
+        user: "lion",
+        id: "lion@123"
+    },
+    {
+        user: "tiger",
+        id: "tiger@123"
+    },
+    {
+        user: "chita",
+        id: "chita@123"
+    }
+]
+
+animal.forEach((val) => {
+    console.log(val);
+})
+
+animal.forEach((val) => {
+    console.log(val.user);
+})
