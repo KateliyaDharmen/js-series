@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background-color: blue;
+}
+.container{
+    max-height: 400px;
+    width: 300px;
+    margin: 100px auto ;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgb(38, 79, 113);
+    font-family:Arial, Helvetica, sans-serif;
+}
+button{
+    margin-left: 100px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    background-color: aquamarine;
+}
+button:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+.container h1,.weight-guide{
+    text-align: center;
+}
+.result{
+    text-align: center;
+    padding: 5px;
+    margin: 3px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+}
