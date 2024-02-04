@@ -45,6 +45,10 @@ function validateInput (guess) {
 function checkGuess(guess){
     //check the guess number with the random number
     if(guess === randomNum){
+        startConfetti();
+        setTimeout(() => {
+            stopConfetti();
+        },2000);
         displayMsg(`You Guessed it Right. You win :)`);
         endGame();
     }else if(guess < randomNum){

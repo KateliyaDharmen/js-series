@@ -1,71 +1,100 @@
-body{
+body {
     margin: 0;
-    background-color: rgba(105, 171, 146, 0.63);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #4CAF50, #45a049);
 }
-.container{
-    box-sizing: border-box;
-    width: 530px;
-    padding: 10px;
+
+.container {
+    width: 50%;
     min-width: 350px;
-    max-width: 750px;
+    max-width: 600px;
     margin: 100px auto;
     text-align: center;
-    background-color: rgb(111, 248, 220);
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 8px;
-    font-size: large;
-    box-shadow: 3px 3px 2px grey;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    box-sizing: border-box;
 }
-#guessfield{
+
+h1 {
+    color: #4CAF50;
+}
+
+p {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#guessfield {
     height: 40px;
-    border: 2px solid;
+    border: 2px solid #4CAF50;
     border-radius: 4px;
-    width: 150px;
+    width: 60%;
     text-align: center;
     font-size: larger;
+    margin-bottom: 20px;
 }
-label{
-    font-weight: bolder;
-    font-size: larger;
-}
-#submit{
-    margin-top: 20px;
-    margin-left: 8px;
+
+#submit {
     font-size: 20px;
-    padding: 5px;
+    padding: 8px 15px;
     border-radius: 6px;
     border: none;
-    box-shadow: 2px 2px 2px rgb(26, 95, 72);
-    background-color: rgb(4, 227, 153);
-    font-weight:bold;
-}
-#submit:hover,#button:hover{
+    background-color: #4CAF50;
+    color: #fff;
     cursor: pointer;
-    background-color: rgb(1, 174, 136);
+    transition: background-color 0.3s ease;
 }
-.prevGuess{
-    color: white;
-    padding: 7px;
+
+#submit:hover {
+    background-color: #45a049;
+}
+
+.prevGuess {
+    color: #fff;
+    padding: 10px;
     border-radius: 5px;
-    background-color: rgb(45, 105, 95);
+    background-color: #4CAF50;
+    margin-bottom: 20px;
 }
-#button{
-    width: 150px;
-    margin: 0 auto;
+
+#button {
     font-size: 20px;
-    padding: 5px;
+    padding: 8px 15px;
     border-radius: 6px;
     border: none;
-    box-shadow: 2px 2px 2px rgb(26, 95, 72);
-    background-color: rgb(4, 227, 153);
-    font-weight:bold;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
-.resultDisplay{
-    width: 350px;
-    margin: 0 auto;
+
+#button:hover {
+    background-color: #45a049;
+}
+
+.resultDisplay {
+    width: 100%;
     font-size: 20px;
-    font-weight: bolder;
-    color: rgb(0, 0, 0);
-    padding: 7px;
-    border-radius: 5px;
+    font-weight: bold;
+    color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+.result {
+    margin-top: 20px;
 }
